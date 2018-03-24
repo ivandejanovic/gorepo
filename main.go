@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Main")
-	module.Message()
+	fmt.Println(module.Message())
 }

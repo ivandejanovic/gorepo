@@ -1,9 +1,8 @@
 package module
 
-import (
-	"fmt"
-)
+import ()
 
-func Message() {
-	fmt.Println("module")
+func Message() string {
+	message := "module"
+	return message
 }
